@@ -17,31 +17,55 @@
 </head>
 
 <style> 
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-}
+	img { 
+            float: left;  
+            margin: 5px; 
+    } 
+	
+	p { 
+		text-align: justify;             
+	}
+	
+	.rgb  {
+	  animation: color-change 3s infinite;
+	}
 
-.button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: #f44336;} /* Red */ 
-.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
-.button5 {background-color: #555555;} /* Black */
-.button6 {background-color: #FA7CF5;} /* Pink */
-.button7 {background-color: #E2F162;} /* Yellow */
-.button8 {background-color: #A971FF;} /* Purple */
-.button9 {background-color: #3CC5FC;} /* Black */
-.button10 {background-color: #FC7F3C;} /* Orange */		
-.button11 {background-color: #33D8B3;} /* Teal */	
+	@keyframes color-change {
+	  0% { color: red; }
+	  25% { color: yellow; }
+	  50% { color: blue; }
+	  75% { color: green; }
+	  100% { color: red; }
+	}
+	
+	.logo{
+		padding-right: 25px;
+	}
+	
+	.gif
+	{
+		padding-right: 25px;
+		padding-bottom: 25px;
+	}
+	
 
+	.button {
+	  background-color: #EEEDED;  	  
+	  padding: 15px 22px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 6px 1.5px;
+	  cursor: pointer;
+	  border: 2px solid #008CBA;
+	  color: black; 
+	  border-radius: 4px;
+	  text-align: center;
+	}
+	
+	
+	
 </style>
 
 <!-- body -->
@@ -63,7 +87,7 @@
     <p><h2>Ben Van Hoose</h2>
     Student, College of Engineering CE<br>
     University of Utah, Salt Lake City, UT, USA, 84112<br>
-    Quartzdyne (<a href="https://quartzdyne.com/">NCKU-CS</a>), PhD (<a href="https://ece.illinois.edu/">UIUC-ECE</a>) &nbsp;
+    Engineer Intern, Quartzdyne
     </p>
   </div>
   
@@ -71,50 +95,97 @@
 <hr>
 
 <h3>Objective</h3>
-<p>Get er done</p>
+<p>Create, innovate, save the world, and hopefully make money while doing it.</p>
 <hr>
 
-<h3>Project Ideas</h3>
-<dl>
-<dt>Automated Aquarium</dt>
-<dd>- black hot drink</dd>
-<dd>- white cold drink</dd>
-</dl>
+<h3 style="padding-bottom: 10px;">Project Ideas</h3>
+	<dl>	
+		<div style="margin-left: 50px">
+		<dt style="font-size:14pt; text-decoration: underline; padding-bottom: 5px;">Automated Aquarium </dt>		
+		</div>	
+	</dl>
+	<div>
+		<img class="gif" src="images/fish.gif" style="width: 13%;">
+	</div>
+	<div class="row">
+		<div class="column" style="padding-right: 15px;">
+			<dt>- Automation</dt>
+			<ul>
+				  <li>Feeding</li>
+				  <li>Temperature control</li>
+				  <li>Lighting</li>
+				  <li>Filtration</li>
+				</ul>
+		</div>
+		<div class="column">
+			<dt>- App UI</dt>
+			<ul>
+				<li>Display total food remaining</li>
+				  <li>Set and display temperature</li>
+				  <li>Set lighting schedule</li>
+				  <li>Display toxicity level</li>
+				  <li><p class="rgb">Control RGB LEDs</p></li>
+			</ul>
+		</div>
+	</div>
 <hr>
 
 <h3>Skills</h3>
 <button class="button">MATLAB</button>
-<button class="button button2">Java</button>
-<button class="button button3">C#</button>
-<button class="button button4">C</button>
-<button class="button button5">Python</button>
-<button class="button button6">hmtl</button>
-<button class="button button7">php</button>
-<button class="button button8">javascript</button>
-<button class="button button9">PCB Design</button>
-<button class="button button10">Soldering</button>
-<button class="button button11">Circuits</button>
+<button class="button">Java</button>
+<button class="button">C#</button>
+<button class="button">C</button>	
+<button class="button">Python</button>
+<button class="button">hmtl</button>
+<button class="button">php</button>
+<button class="button">javascript</button>
+<button class="button">PCB Design</button>
+<button class="button">Soldering</button>
+<button class="button">Circuits</button>
 
-<hr>
+<hr>	
 
 <h3>Experience</h3>
-<p>Quartzdyne logo, and link, pillpack logo and link</p>
-<hr>
+<div>
+<p style="text-align:right;">1/20 – present</p>
+<a href="https://quartzdyne.com/"><img src="images/Quartzdyne_Logo_Header.png" ALIGN=”top” style="width: 10%;" class="logo"></a>
 
+<dt>Quartzdyne – Engineer Intern</dt>
+			<ul>
+			  <li>- Implemented an automated calibration system using MATLAB providing high levels of accuracy and freeing up production resources</li>
+			  <li>- Developed a website using HTML and PHP providing test results from a database</li>
+			  <li>- Designed and implemented a PCB for a new system involving RS-232 communication with transducers</li>
+			</ul>
+</div>
+
+<div>
+<p style="text-align:right;">6/18 – 1/20</p>
+<a href="https://pillpack.com/"><img src="images/pillpack_logo.png" ALIGN=”top” style="width: 10%;" class="logo"></a>
+<dt>PillPack Pharmacy- Enrollment Advisor</dt>
+			<ul>
+			  <li>- Pre- Amazon acquisition, managed a team of 5 enrollment advisors, and ran meetings biweekly to set benchmark and deadline goals</li>
+			  <li>- Advised clients in the decision process regarding insurance and pharmacy plans</li>
+			</ul>
+</div>
+<br>
+	
+<hr>
 <h3>Expectation</h3>
+<p>I'm looking for a team of motivated people that take pride in their work and enjoy the process.</p>
 <hr>
 
 
 <h3>Contact</h3>
 <p>Phone: (541) 806-2912</p>
 <p>Email: benvanhoose1@gmail.com</P>
+<p>Umail: u1134346@utah.edu</P>
 <hr>
 
 </div>
 
 
 <hr>
-<footer>Last update 01/10/2021</footer>
+<footer>Last update 02/05/2021</footer>
 
 </div>
 
