@@ -1,199 +1,523 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BV Webpage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Ben Van Hoose" />
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-<title>BV's Homepage</title>
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-<!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="css/custom.css?v=2020-10-10">
-<link rel="stylesheet" href="css/bootstrap/4.4.1/bootstrap.min.css">
-<script type="text/javascript" src="js/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap/4.4.1/bootstrap.min.js"></script>
-
-</head>
-
-<style> 
-	img { 
-            float: left;  
-            margin: 5px; 
-			border-radius: 15px 15px 5px 5px;		
-    } 
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 	
-	p { 
-		text-align: justify;             
-	}
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/Ben-Profile-Pic.png);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Ben Van Hoose</a></h1>
+				<span class="position"><a href="#">Computer Engineering Student</a> at the University of Utah</span>
+				<span class="position"><a href="#">Engineer Intern</a> at Quartzdyne, a ChampionX company</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>						
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="Projects">Projects</a></li>						
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/Ben_and_Loki1.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1 style="color:white;">Hi! <br>I'm Ben</h1>											
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/Ben_and_Loki_smile1.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<p style="color:white;font-size:25px">I am currently<br></p><p style="color:white;font-size:25px">studying computer engineering at the University of Utah</p>
+												
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Us</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Ben Van Hoose.</strong> I'm from a small town in Oregon called Hood River. I grew up mountain biking, skiing, and being out on the Columbia River. I moved out to Utah to study computer engineering at the University of Utah while still being able to continue my outdoor adventures.</p>
+										<p>I'm currently finishing my bachelor degree and plan on graduating in May of 2022. I have a passion to create and take pride in my work.</p>
+									</div>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/slc.jpg);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="colorlib-narrow-content">
+					<div class="row">
+					</div>
+					<div class="row">
+					<br><br><br><br><br><br>						
+					</div>
+				</div>
+			</div>
+			
+			<section class="colorlib-services" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">What I do?</span>
+							<h2 class="colorlib-heading">Here are some of my expertise</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+								<div class="desc">
+									<h3>C, C++</h3>
+									<p>Microcontroller programming. Within a team, created a prototype smart bike kit</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Verilog</h3>
+									<p>FPGA programming. Within a team, created a balancing board game powered by our designed CPU </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>HTML, PHP, javascript</h3>
+									<p>Self-taught, created multiple webtools for Quartzdyne to formulate data from a database</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+								<div class="desc">
+									<h3>MATLAB</h3>
+									<p>Developed multiple automated testing systems. Implemented an automated calibration system with a high level of accuracy</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>PCB Design</h3>
+									<p>Designed and implemented a PCB for a new system involving RS-232 communication with transducers</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-6">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Circuitry and soldering</h3>
+									<p>Designed and created Circuits for school and for work. Proficient experience soldering with an iron and reflow oven on job site</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>java, C#</h3>
+									<p>Multiple projects for school including an imitation Excel application and an online video game</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>python</h3>
+									<p>Self-taught and implemented a system to streamline creation of work documents</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Official Reporting</h3>
+									<p>Created multiple professional documents and procedures for Quartzydne</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			
+
+			
+			
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bachelor Degree of Computer Engineering (in progress)
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<p>University of Utah - College of Engineering</p> 
+														<ul>
+															<li>3.5/4.0 Cumulative GPA, Dean’s List </li>															
+														</ul>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p>8/17 - present </p>
+										      		</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingThree">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Relevant University Coursework
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									        <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">										      			
+														<ul>
+															<li>Object-Oriented Programing</li>
+															<li>Intro to Algorithms & Data Structures</li>
+															<li>Circuit and Electronic Design</li>
+															<li>MATLAB for ECE Design</li>
+															<li>Computer Organization</li>
+														</ul>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<ul>
+															<li>Software Practice</li>
+															<li>Circuit and Electronic Design</li>
+															<li>Digital System Design</li>
+															<li>Computer Systems</li>
+															<li>Embedded Systems</li>
+														</ul>
+										      		</div>
+										      	</div>											
+									        </div>
+									    </div>										
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">High School Secondary Education
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<p>Hood River Valley High School / Summit Learning Charter</p> 
+														<ul>
+															<li>4.0/4.0 Cumulative GPA, AP Scholar</li>
+															<li>National Honors Society, President of Future Health Professionals Club, Varsity Lacrosse</li>
+															<li>Attended Classes at Eastern Oregon University and Columbia Gorge Community College</li>
+														</ul>
+
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p>9/13 – 6/17</p>
+										      		</div>
+										      	</div>											
+									        </div>
+									    </div>										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+								    <p style="text-align:right;">1/20 – present</p>
+									<a href="https://quartzdyne.com/"><img src="images/Quartzdyne_Logo_Header.png" ALIGN=”top” style="width: 110px;" class="logo"></a>									
+									<br>
+									<br>
+									<dt>Quartzdyne – Engineer Intern</dt>
+										<ul>
+										  <li>PID tuning and recipe development for an auto plating deposition device
+										  <li>Implemented an automated calibration system using MATLAB providing high levels of accuracy and freeing up production resources</li>
+										  <li>Developed webtools using HTML and PHP providing formulated test results from databases</li>
+										  <li>Designed and implemented a PCB for a new system involving RS-232 communication with transducers</li>
+										</ul>
+					                 </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+									<p style="text-align:right;">6/18 – 1/20</p>
+									<a href="https://pillpack.com/"><img src="images/pillpack_logo.png" ALIGN=”top” style="width: 110px; border-radius:0px" class="logo"></a>
+									<br>
+									<br>
+									<dt>PillPack Pharmacy- Enrollment Advisor</dt>
+										<ul>
+										  <li>Pre- Amazon acquisition, managed a team of 5 enrollment advisors, and ran meetings biweekly to set benchmark and deadline goals</li>
+										  <li>Advised clients in the decision process regarding insurance and pharmacy plans</li>
+										</ul>								   
+					               	</div>
+					            </div>
+					         </article>
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-work" data-section="Projects">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Work</span>
+							<h2 class="colorlib-heading animate-box">Recent Projects</h2>
+						</div>
+					</div>	
+					<div>
+						<p><strong>Smart Bike Kit Prototype</strong> Group prototype for senior project (Spring 2021)</p>
+						<ul>
+							<li>Bluetooth connection to custom phone app allowing the user to display turn signals or other images to LED matrix</li>								
+							<li>Self-canceling turn signals using an accelerometer</li>
+							<li>Microcontroller programing</li>
+						</ul>
+					</div>
+					<br>
+					<div>
+						<p><strong>Balancing Plate Game</strong> - Group project for Digital System Design class (Spring 2021)</p>
+						<ul>
+							<li>Balance a ping pong ball on surface controlled by a joystick</li>
+							<li>Current score and high score are recorded and displayed through a VGA connection</li>	
+							<li>Designed and implemented a virtual CPU using a FPGA</li>
+							<li>Created a custom USART system to comunicate with different components</li>							
+						</ul>
+					</div>
+				</div>
+			</section>		
+			
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="#">benvanhoose1@gmail.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>Salt Lake City, UT 84102</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">(541) 806 2912</a></p>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
 	
-	.rgb  {
-	  animation: color-change 3s infinite;
-	}
-
-	@keyframes color-change {
-	  0% { color: red; }
-	  25% { color: yellow; }
-	  50% { color: blue; }
-	  75% { color: green; }
-	  100% { color: red; }
-	}
 	
-	.logo{
-		padding-right: 25px;
-	}
-	
-	.gif
-	{
-		padding-right: 25px;
-		padding-bottom: 25px;
-	}	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
 
-	.button {
-	  background-color: #EEEDED;  	  
-	  padding: 15px 22px;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
-	  font-size: 16px;
-	  margin: 6px 1.5px;
-	  cursor: pointer;
-	  border: 2px solid #008CBA;
-	  color: black; 
-	  border-radius: 4px;
-	  text-align: center;
-	}
-	
-	
-	
-</style>
-
-<!-- body -->
-<body>
-
-<div class="container">
-
-<div class="row">
-
-  <div class="col-md-2 col-sm-2 vertical-align">
-    <p>
-    <div style="max-width: 130px; text-align: center;">
-      <img src="images/Ben_Profile_edit.jpg" style="width: 100%; padding-top: 10px;">
-    </div>
-    </p>
-  </div>
-
-  <div class="col-md-8 col-sm-8">
-    <p><h2>Ben Van Hoose</h2>
-    Student, College of Engineering CE<br>
-    University of Utah, Salt Lake City, UT, USA, 84112<br>
-    Engineer Intern, Quartzdyne
-    </p>
-  </div>
-  
-</div>
-<hr>
-
-<h3>Objective</h3>
-<p>Create, innovate, save the world, and hopefully make money while doing it.</p>
-<hr>
-
-<h3 style="padding-bottom: 10px;">Project Ideas</h3>
-	<dl>	
-		<div style="margin-left: 50px">
-		<dt style="font-size:14pt; text-decoration: underline; padding-bottom: 5px;">Automated Aquarium </dt>		
-		</div>	
-	</dl>
-	<div>
-		<img class="gif" src="images/fish.gif" style="width: 150px;">
-	</div>
-	<div class="row">
-		<div class="column" style="padding-right: 15px;">
-			<dt>- Automation</dt>
-			<ul>
-				  <li>Feeding</li>
-				  <li>Temperature control</li>
-				  <li>Lighting</li>
-				  <li>Filtration</li>
-				</ul>
-		</div>
-		<div class="column">
-			<dt>- App UI</dt>
-			<ul>
-				<li>Display total food remaining</li>
-				  <li>Set and display temperature</li>
-				  <li>Set lighting schedule</li>
-				  <li>Display toxicity level</li>
-				  <li><p class="rgb">Control RGB LEDs</p></li>
-			</ul>
-		</div>
-	</div>
-<hr>
-
-<h3>Skills</h3>
-<button class="button">MATLAB</button>
-<button class="button">Java</button>
-<button class="button">C#</button>
-<button class="button">C</button>	
-<button class="button">Python</button>
-<button class="button">hmtl</button>
-<button class="button">php</button>
-<button class="button">javascript</button>
-<button class="button">PCB Design</button>
-<button class="button">Soldering</button>
-<button class="button">Circuits</button>
-
-<hr>	
-
-<h3>Experience</h3>
-<div>
-<p style="text-align:right;">1/20 – present</p>
-<a href="https://quartzdyne.com/"><img src="images/Quartzdyne_Logo_Header.png" ALIGN=”top” style="width: 110px;" class="logo"></a>
-
-<dt>Quartzdyne – Engineer Intern</dt>
-			<ul>
-			  <li>- Implemented an automated calibration system using MATLAB providing high levels of accuracy and freeing up production resources</li>
-			  <li>- Developed a website using HTML and PHP providing test results from a database</li>
-			  <li>- Designed and implemented a PCB for a new system involving RS-232 communication with transducers</li>
-			</ul>
-</div>
-
-<div>
-<p style="text-align:right;">6/18 – 1/20</p>
-<a href="https://pillpack.com/"><img src="images/pillpack_logo.png" ALIGN=”top” style="width: 110px; border-radius:0px" class="logo"></a>
-<dt>PillPack Pharmacy- Enrollment Advisor</dt>
-			<ul>
-			  <li>- Pre- Amazon acquisition, managed a team of 5 enrollment advisors, and ran meetings biweekly to set benchmark and deadline goals</li>
-			  <li>- Advised clients in the decision process regarding insurance and pharmacy plans</li>
-			</ul>
-</div>
-<br>
-	
-<hr>
-<h3>Expectation</h3>
-<p>I'm looking for a team of motivated people that take pride in their work and enjoy the process.</p>
-<hr>
-
-
-<h3>Contact</h3>
-<p>Phone: (541) 806-2912</p>
-<p>Email: benvanhoose1@gmail.com</P>
-<p>Umail: u1134346@utah.edu</P>
-<hr>
-
-</div>
-
-
-<hr>
-<footer>Last update 02/05/2021</footer>
-
-</div>
-
-</body>
-  
-  <!--<script src="js/news.js"></script>
-  <script src="js/index.js"></script>-->
-
+	</body>
 </html>
-
 
